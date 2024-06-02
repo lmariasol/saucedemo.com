@@ -10,7 +10,7 @@ import pageObjects.LoginPage;
 public class BaseTest {
 	WebDriver driver;
 
-	@BeforeClass
+	@BeforeClass(description = "Succsessful Login credentials")
 	public void setupLogin() {
 		// Login
 		LoginPage lp = new LoginPage(driver);

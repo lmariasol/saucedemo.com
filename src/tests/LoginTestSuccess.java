@@ -1,12 +1,18 @@
 package tests;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import pageObjects.LoginPage;
 import pageObjects.ProductsPage;
 
 public class LoginTestSuccess extends BaseTest {
+	
+	@Override
+	public void setupLogin() {
+		
+	}
 
 	@Test
 	public void tc04_Login_Success() {

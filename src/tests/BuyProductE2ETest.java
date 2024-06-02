@@ -17,10 +17,6 @@ public class BuyProductE2ETest extends BaseTest{
 
 	@Test
 	public void tc01_BuyProduct() {
-		// Login
-		LoginPage loginPage = new LoginPage(driver);
-		loginPage.loginForm("standard_user", "secret_sauce");
-
 		// Find products
 		ProductsPage products = new ProductsPage(driver);
 		products.selectProduct("Sauce Labs Fleece Jacket");
