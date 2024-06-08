@@ -1,12 +1,8 @@
 package tests;
 
-import java.util.List;
-
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
-import pageObjects.LoginPage;
 import pageObjects.ProductsPage;
 
 public class SortingProductsTest extends BaseTest{

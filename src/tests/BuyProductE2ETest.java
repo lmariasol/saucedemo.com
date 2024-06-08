@@ -1,7 +1,5 @@
 package tests;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,9 +7,9 @@ import pageObjects.CartPage;
 import pageObjects.CheckoutCompletePage;
 import pageObjects.CheckoutOverviewPage;
 import pageObjects.CheckoutPage;
-import pageObjects.LoginPage;
 import pageObjects.ProductPage;
 import pageObjects.ProductsPage;
+import utils.Utils;
 
 public class BuyProductE2ETest extends BaseTest{
 
@@ -35,7 +33,10 @@ public class BuyProductE2ETest extends BaseTest{
 
 		// Checkout: Your Information page
 		CheckoutPage checkoutPage = new CheckoutPage(driver);
-		checkoutPage.fillCheckoutForm("Maria", "Test", "123456");
+		checkoutPage.fillCheckoutForm(
+				Utils.readProperty("CheckoutPage_firstName"),
+				"CheckoutPage_lastName",
+				"CheckoutPage_zipCode");
 
 		// Checkout: Overview page
 		CheckoutOverviewPage checkoutOverviewPage = new CheckoutOverviewPage(driver);

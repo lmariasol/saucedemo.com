@@ -1,22 +1,14 @@
 package pageObjects;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import javax.crypto.SealedObject;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 public class ProductsPage extends SidebarMenuPage {
 
@@ -43,7 +35,8 @@ public class ProductsPage extends SidebarMenuPage {
 
 	// Methods-------------------------------------------------------------------
 	public boolean isProductsPage() {
-		if (getPageTitle().equalsIgnoreCase("Products")) {
+		String productsPageTitle = pageTitle.getText();
+		if (productsPageTitle.equalsIgnoreCase("Products")) {
 			return true;
 		}
 		return false;
@@ -68,7 +61,7 @@ public class ProductsPage extends SidebarMenuPage {
 		sleep(1000);
 	}
 
-	// Select Sorting options ("az","za","lohi","hilo")
+	// Select Sorting options ("az = a-to-z","za = z-to-a","lohi = low to high","hilo = hihg to low")
 	public void sortProducts(String s) {
 		click(sortBtn);
 		Select dropdown = new Select(sortBtn);
@@ -94,12 +87,14 @@ public class ProductsPage extends SidebarMenuPage {
 		double price = 0.0;
 		List<Double> listOfProductsPrices = new ArrayList<Double>();
 		for (WebElement element : productPrice) {
-			//WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(10));
-			//w.until(ExpectedConditions.visibilityOf(productPrice));
+			// WebDriverWait w = new WebDriverWait(driver, Duration.ofSeconds(10));
+			// w.until(ExpectedConditions.visibilityOf(productPrice));
 			String priceText = getText(element);
+			
 			// Remove the dollar sign using substring manipulation
 			String priceWithoutDollarSign = priceText.substring(1);
-			//System.out.println("Extracted price: " + priceWithoutDollarSign);
+			
+			// System.out.println("Extracted price: " + priceWithoutDollarSign);
 			price = Double.parseDouble(priceWithoutDollarSign);
 			listOfProductsPrices.add(price);
 			sleep(300);
@@ -109,16 +104,16 @@ public class ProductsPage extends SidebarMenuPage {
 
 	public boolean checkIfLowToHighPriceSorted(List<Double> list) {
 		for (int i = 0; i < list.size() - 1; i++) {
-			if (list.get(i) <= list.get(i + 1));
-
+			if (list.get(i) <= list.get(i + 1))
+				;
 		}
 		return true;
 	}
 
 	public boolean checkIfHighToLowPriceSorted(List<Double> list) {
 		for (int i = 0; i < list.size() - 1; i++) {
-			if (list.get(i) >= list.get(i + 1));
-
+			if (list.get(i) >= list.get(i + 1))
+				;
 		}
 		return true;
 	}
@@ -131,16 +126,16 @@ public class ProductsPage extends SidebarMenuPage {
 		// This ensures the entire list was sorted correctly
 		return list.equals(new ArrayList<>(list)); // Create a copy to avoid modifying original list
 	}
-	
+
 	public boolean checkIfZtoASorted(List<String> list) {
 		// 1. Create a custom comparator for reverse alphabetical order
-		  Comparator<String> reverseComparator = Collections.reverseOrder();
+		Comparator<String> reverseComparator = Collections.reverseOrder();
 
-		  // 2. Sort the list using the custom comparator (Z-to-A)
-		  Collections.sort(list, reverseComparator);
+		// 2. Sort the list using the custom comparator (Z-to-A)
+		Collections.sort(list, reverseComparator);
 
-		  // 3. Check if the original and sorted list are the same
-		  // This ensures the entire list was sorted correctly (already in reverse order)
-		  return list.equals(new ArrayList<>(list)); 
+		// 3. Check if the original and sorted list are the same
+		// This ensures the entire list was sorted correctly (already in reverse order)
+		return list.equals(new ArrayList<>(list));
 	}
 }

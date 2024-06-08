@@ -1,11 +1,10 @@
 package tests;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import pageObjects.LoginPage;
 import pageObjects.ProductsPage;
+import utils.Utils;
 
 public class LoginTestSuccess extends BaseTest {
 	
@@ -18,7 +17,7 @@ public class LoginTestSuccess extends BaseTest {
 	public void tc04_Login_Success() {
 		// Login
 		LoginPage lp = new LoginPage(driver);
-		lp.loginForm("standard_user", "secret_sauce");
+		lp.loginForm(Utils.readProperty("user1"), Utils.readProperty("password1"));
 		ProductsPage products = new ProductsPage(driver);
 		// Assert
 		String expected = "Swag Labs";

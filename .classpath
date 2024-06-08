@@ -7,122 +7,99 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/auto-service-annotations-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/auto-service-annotations-1.1.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/byte-buddy-1.14.14.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/byte-buddy-1.14.14-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/checker-qual-3.42.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/checker-qual-3.42.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/commons-exec-1.4.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/commons-exec-1.4.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/error_prone_annotations-2.26.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/error_prone_annotations-2.26.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/failsafe-3.3.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/failsafe-3.3.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/failureaccess-1.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/failureaccess-1.0.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/guava-33.1.0-jre.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/guava-33.1.0-jre-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/j2objc-annotations-3.0.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/j2objc-annotations-3.0.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/jsr305-3.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/jsr305-3.0.2-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-api-1.37.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-api-1.37.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-api-incubator-1.37.0-alpha.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-api-incubator-1.37.0-alpha-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-context-1.37.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-context-1.37.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-exporter-logging-1.37.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-exporter-logging-1.37.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-1.37.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-1.37.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-common-1.37.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-common-1.37.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-extension-autoconfigure-1.37.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-extension-autoconfigure-1.37.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-extension-autoconfigure-spi-1.37.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-logs-1.37.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-logs-1.37.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-metrics-1.37.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-metrics-1.37.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-trace-1.37.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-sdk-trace-1.37.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-semconv-1.25.0-alpha.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/opentelemetry-semconv-1.25.0-alpha-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-api-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-api-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-api-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-api-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-chrome-driver-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-chrome-driver-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-chrome-driver-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-chrome-driver-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-chromium-driver-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-chromium-driver-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-chromium-driver-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-chromium-driver-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v85-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v85-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v85-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v85-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v121-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v121-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v122-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v122-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v122-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v122-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v123-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v123-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v123-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v123-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v124-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-devtools-v124-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-edge-driver-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-edge-driver-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-edge-driver-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-edge-driver-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-firefox-driver-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-firefox-driver-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-firefox-driver-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-firefox-driver-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-http-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-http-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-http-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-http-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-ie-driver-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-ie-driver-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-ie-driver-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-ie-driver-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-java-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-java-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-java-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-java-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-json-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-json-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-json-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-json-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-manager-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-manager-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-manager-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-manager-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-os-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-os-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-os-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-os-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-remote-driver-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-remote-driver-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-remote-driver-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-remote-driver-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-safari-driver-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-safari-driver-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-safari-driver-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-safari-driver-4.20.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-support-4.19.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-support-4.19.1-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-support-4.20.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium jar files/selenium-support-4.20.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/poi-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/poi-examples-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/poi-excelant-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/poi-ooxml-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/poi-scratchpad-3.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/lib/commons-codec-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/lib/commons-collections4-4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/lib/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/lib/junit-4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/POI libs/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/auto-service-annotations-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/auto-service-annotations-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/byte-buddy-1.14.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/byte-buddy-1.14.15-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/checker-qual-3.42.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/checker-qual-3.42.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/commons-exec-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/commons-exec-1.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/error_prone_annotations-2.26.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/error_prone_annotations-2.26.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/failsafe-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/failsafe-3.3.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/failureaccess-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/failureaccess-1.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/guava-33.2.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/guava-33.2.0-jre-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/j2objc-annotations-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/j2objc-annotations-3.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/jsr305-3.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-api-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-api-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-api-incubator-1.38.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-api-incubator-1.38.0-alpha-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-context-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-context-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-exporter-logging-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-exporter-logging-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-common-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-common-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-extension-autoconfigure-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-logs-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-logs-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-metrics-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-metrics-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-trace-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-sdk-trace-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-semconv-1.25.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/opentelemetry-semconv-1.25.0-alpha-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-api-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-api-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-chrome-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-chrome-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-chromium-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-chromium-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-devtools-v85-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-devtools-v85-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-devtools-v123-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-devtools-v123-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-devtools-v124-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-devtools-v124-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-devtools-v125-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-devtools-v125-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-edge-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-edge-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-firefox-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-firefox-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-http-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-http-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-ie-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-ie-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-java-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-java-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-json-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-json-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-manager-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-manager-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-os-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-os-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-remote-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-remote-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-safari-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-safari-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-support-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mariasol/Maria/Automation course/Selenium libs/selenium-support-4.21.0-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -3,7 +3,6 @@ package tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
 import pageObjects.LoginPage;
@@ -15,8 +14,6 @@ public class SidebarMenuTest extends BaseTest {
 
 	@Test
 	public void tc01_openSideMenu() {
-		LoginPage lp = new LoginPage(driver);
-		lp.loginForm("standard_user", "secret_sauce");
 		ProductsPage products = new ProductsPage(driver);
 		products.openSidebarMenu();
 		// Assert
@@ -28,8 +25,6 @@ public class SidebarMenuTest extends BaseTest {
 
 	@Test
 	public void tc02_Menu_About() {
-		LoginPage lp = new LoginPage(driver);
-		lp.loginForm("standard_user", "secret_sauce");
 		ProductsPage products = new ProductsPage(driver);
 		products.openSidebarMenu();
 		products.selectMenuOptions("About");

@@ -47,6 +47,7 @@ public class BasePage {
 	// Get page title
 	public String getPageTitle() {
 		String titleText = driver.getTitle();
+		//System.out.println("String titleText = driver.getTitle() is " + driver.getTitle());
 		return titleText;
 	}
 
